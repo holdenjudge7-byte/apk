@@ -1,0 +1,4 @@
+-keepclasseswithmembernames class * { native <methods>; }
+-keepclassmembers class * { @android.webkit.JavascriptInterface <methods>; }
+-keep class com.orsted.chessoverlay.ChessBridge { *; }
+-keep class com.orsted.chessoverlay.MainActivity { *; }
